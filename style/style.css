@@ -11,7 +11,9 @@
 }
 
 body {
-    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* shared style */
@@ -27,6 +29,12 @@ body {
 .primary-text-color {
     color: #4E47FF;
 
+}
+
+.title-text{
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1);
 }
 
 /* header style */
@@ -65,4 +73,42 @@ div h2 {
     font-weight: bold;
     text-align: center;
     color: #252432;
+}
+
+main{
+    margin: 116px 150px 0 150px;
+}
+
+/* action banner */
+.action-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 517px;
+}
+
+
+
+.banner-description{
+    font-size: 24px;
+    text-align: left;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.action-banner-img{
+    border-radius: 48px;
+    max-width: 403px; 
+}
+
+/* productive Uses */
+.productive-users{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    height: 306px;
+}
+
+.productive-user-title{
+    
 }
