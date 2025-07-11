@@ -81,7 +81,7 @@ div h2 {
 }
 
 main {
-    margin: 116px 150px 0 150px;
+    padding: 116px 150px 0 150px;
 }
 
 /* action banner */
@@ -167,3 +167,94 @@ main {
   margin-top: 20px;
 }
 
+.contact-section{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.contact-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+
+
+.contact-column{
+    width: 50%;
+    padding-bottom: 70px;
+}
+
+.contact-title{
+    color: black;
+    font-size: 97px;
+    font-weight: bold;
+
+}
+
+.form-tags{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input{
+    width: 94%;
+    height: 40px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+textarea{
+    width: 94%;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.get-in-touch-btn{
+    width: 101%;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer{
+    background-color: white;
+    padding: 100px 690px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.footer-item{
+    margin-bottom: 20px;
+}
+.footer-logo{
+    font-size: 100px;
+    margin: 0;
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+    padding: 0 ;
+   
+}
+footer a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    
+}
+ul{
+    display: flex;
+    gap: 50px;
+    
+}
+
+ul li{
+    list-style: none;
+}
