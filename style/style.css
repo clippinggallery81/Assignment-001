@@ -14,6 +14,7 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    background-color: #F5F8FF;
 }
 
 /* shared style */
@@ -31,7 +32,7 @@ body {
 
 }
 
-.title-text{
+.title-text {
     font-weight: bold;
     font-size: 42px;
     color: rgba(37, 36, 50, 1);
@@ -41,15 +42,17 @@ body {
 .header {
     background-image: url('../Images/Hero-bg.png');
     height: 652px;
+    margin-top: 0px;
 }
 
 /* nav styles */
-nav {
+
+.nav-logo-btn {
+    margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
-
+    margin: 0 150px 0 150px;
 }
 
 .nav-logo {
@@ -64,8 +67,9 @@ nav li {
 .hero-section {
     justify-content: center;
     align-items: center;
-    max-width: 905px;
     text-align: center;
+    margin: 150px 400px 0 400px;
+    width: 905px;
 }
 
 div h2 {
@@ -73,42 +77,93 @@ div h2 {
     font-weight: bold;
     text-align: center;
     color: #252432;
+    margin-bottom: 37px;
 }
 
-main{
+main {
     margin: 116px 150px 0 150px;
 }
 
 /* action banner */
-.action-banner{
+.action-banner {
     display: flex;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 517px;
 }
 
 
 
-.banner-description{
+.banner-description {
     font-size: 24px;
     text-align: left;
     color: rgba(37, 36, 50, 0.5);
 }
 
-.action-banner-img{
+.action-banner-img {
     border-radius: 48px;
-    max-width: 403px; 
+    max-width: 403px;
 }
 
 /* productive Uses */
-.productive-users{
+.productive-section {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
-    height: 306px;
+    max-width: 100%;
+    margin-top: 116px;
+    text-align: center;
 }
 
-.productive-user-title{
-    
+.productive-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
 }
+
+.productive-title {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.productive-grid {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.productive-value {
+    font-size: 80px;
+    margin: 0;
+}
+.productive-label{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 135px;
+}
+
+.focus-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.focus-subtitle {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 48px;
+  margin-top: 20px;
+}
+
